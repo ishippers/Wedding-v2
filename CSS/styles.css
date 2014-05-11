@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0; 
+	background-color: rgba(3,9,51,1);
+	width:100%;
+	color: #ffffff;
+	text-align: center;
+	font-family: "Lustria", Serif;
+}
+
+nav{
+	background-color:rgba(138,138,138,0.9);
+	display:block;
+	margin: 0, auto;
+	padding:20px;
+	
+	
+}
+
+nav a {
+	margin: 5%;
+	color:rgba(255,255,255,1);
+	text-decoration: none;
+	font-size: 25px;
+}
+
+nav a:hover,
+nav a:focus	{
+		color:rgba(245,111,112,1);
+	}
+
+img.standardimage { 
+	display: block;
+	margin:30px auto;
+	width:500px;
+	border-radius: 10px}
+
+img.header{
+	width: 100%;
+	margin: 0 auto -10px auto;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 25px;
+}
