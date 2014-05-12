@@ -11,8 +11,8 @@ body{
 nav{
 	background-color:rgba(138,138,138,0.9);
 	display:block;
-	margin: 0, auto;
-	padding:15px;
+	margin: 0 auto;
+	padding:10px;
 }
 
 nav a {
@@ -29,7 +29,7 @@ nav a:focus	{
 
 img.standardimage { 
 	display: block;
-	margin:30px auto;
+	margin:15px auto;
 	width:300px;
 	border-radius: 10px}
 
@@ -41,6 +41,11 @@ img.header{
 
 h1 {
 	font-size: 50px;
+	margin-top: 10px;
+}
+
+h2 {
+	font-size: 15px;
 }
 
 p {
@@ -48,4 +53,8 @@ p {
 	max-width: 700px;
 	margin:0 auto;
 	text-align: justify;
+}
+
+.frontpage{
+	height:100%;
 }
