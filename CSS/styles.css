@@ -93,6 +93,10 @@ footer p{
     display: table; 
 }
 
+.small {
+	font-size: 10px;
+}
+
 .cf:after {
     clear: both;
 }
