@@ -24,7 +24,7 @@ nav a {
 	color:rgba(117,117,117,1);
 	text-decoration: none;
 	font-size: 20px;
-	padding:10px;
+	padding:15px;
 }
 
 nav a:hover,
@@ -50,11 +50,12 @@ h1 {
 }
 
 h2 {
-	font-size: 15px;
+	font-size: 20px;
+	margin: 8px;
 }
 
 p {
-	font-size: 15px;
+	font-size: 18px;
 	max-width: 700px;
 	margin:0 auto;
 	text-align: justify;
@@ -69,8 +70,33 @@ footer{
 	padding-bottom: 0px;
 }
 
+footer p{
+	float:right;
+}
+
 .countdown{
 	display:block;
 	width:400px;
 	margin:10px auto;
+}
+
+.end {
+	background-color: rgba(250,250,250,0.9);
+	margin-top: 40px;
+	color:rgba(117,117,117,1);
+	padding:20px;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table; 
+}
+
+.small {
+	font-size: 10px;
+}
+
+.cf:after {
+    clear: both;
 }
