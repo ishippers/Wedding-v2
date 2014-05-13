@@ -32,10 +32,10 @@ nav a:focus	{
 		color:rgba(245,111,112,1);
 	}
 
-img.standardimage { 
+img.homeimage { 
 	display: block;
 	margin:10px auto;
-	width:270px;
+	width:470px;
 	border-radius: 10px}
 
 img.header{
