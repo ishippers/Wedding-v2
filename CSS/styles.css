@@ -20,7 +20,6 @@ nav{
 
 nav a {
 	display:inline-block;
-	width: 10%;
 	color:rgba(117,117,117,1);
 	text-decoration: none;
 	font-size: 20px;
@@ -99,4 +98,9 @@ footer p{
 
 .cf:after {
     clear: both;
+}
+
+.nocontent {
+	margin:50px;
+	font-size: 40px;
 }
