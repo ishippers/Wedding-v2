@@ -3,8 +3,11 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="scripts/jquery.sticky.js"></script>
+	<script src="scripts/jquery.lettering.js"></script>
+	<script src="scripts/jquery.textillate.js"></script>
 	<title>Thomas Shiplee Wedding</title>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,8 +31,19 @@
 			<a class="reglink" href="ceremony.html">The Wedding</a>
 		</nav>	
 	</header>
+	   <script type="text/javascript">
+			                        $(function textillate() {
+                            $('.tltp').textillate(
+                                    {
+                                        initialDelay: 100,
+                                        in: {
+                                            effect: 'fadeIn'
+                                        }
+                                    });
+                        });
+			</script>
 	<main class="cf">
-	<h3>The Proposal</h3>
+	<h3 class ="tltp textil">The Proposal</h3>
 	<img class="wide" src="photos/engagement.png">
 	<a class="buttonleft" href="prophis.html">His Story</a>
 	<a class="buttonright" href="propher.html">Her Story</a>
@@ -41,5 +55,6 @@
 	    $(window).load(function(){
       $("#header").sticky({ topSpacing: 0 });
     });</script>
+ 
 </body>
 </html>

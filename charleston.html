@@ -4,8 +4,11 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="scripts/jquery.sticky.js"></script>
+	<script src="scripts/jquery.lettering.js"></script>
+	<script src="scripts/jquery.textillate.js"></script>
 	<title>Thomas Shiplee Wedding</title>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,8 +33,19 @@
 		</nav>
 	</header>
 	<main>
+	<script type="text/javascript">
+			                        $(function textillate() {
+                            $('.tltp').textillate(
+                                    {
+                                        initialDelay: 100,
+                                        in: {
+                                            effect: 'fadeIn'
+                                        }
+                                    });
+                        });
+			</script>
 	<div>
-		<h3>Charleston</h3>
+		<h3 class="tltp textil">Charleston</h3>
 		<p>For us Charleston was the obvious choice for our wedding. It is the place where we first spent any real time together, the place that Edward escaped to far too many times in the first six months, and it is where we fell in love. </p>
 		</br>
 		<p>For those of you who aren&rsquo;t familiar with Charleston, it is the oldest city in South Carolina and is known for well-preserved architecture. An iconic part of Charleston&rsquo;s skyline is the Arthur Ravenell, Jr. bridge, which has a public footpath and is a great way to get a bird&rsquo;s eye view of the city and the port.</p>
