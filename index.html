@@ -3,20 +3,35 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src="countdown.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src=""></script>
+	<script src="scripts/countdown.js"></script>
+	<script src="scripts/jquery.lettering.js"></script>
+	<script src="scripts/jquery.textillate.js"></script>
 	<title>Thomas Shiplee Wedding</title>
 </head>
 <body>
 	<main>
 		
-			<h1>Thomas&#8210;Shiplee Wedding</h1>
+			<h1 class="tlt">Thomas&#8210;Shiplee Wedding</h1>
+			<script type="text/javascript">
+			$(document).ready(function () {
+			$('.tlt').textillate({ in: { effect: 'fadeInDown', sync: true, delayScale: 2, } });
+			})
+			</script>
+			<script type="text/javascript">
+			$(function () {
+			$('.next').textillate({ in: { effect: 'fadeIndown', sync: false, Delay: 5000, autostart:false,} });
+			})
+			</script>
+
+			<img id="second" class="homeimage" src="photos/davewedding.jpg" alt="Megan and I at Dave's Wedding">
+			<h2 class="next"> March 20th 2015</h2>
+			<h2 class="next"> Magnolia Plantation</h2>
+			<h2 class="next"> Charleston, SC </h2>	
 		
-			<img class="homeimage" src="photos/davewedding.jpg" alt="Megan and I at Dave's Wedding">
-			<h2> March 20th 2015</h2>
-			<h2> Magnolia Plantation</h2>
-			<h2> Charleston, SC </h2>	
-		
-	<div class="countdown">
+	<div  class="countdown">
 				<script>
 						var myCountdown1 = new Countdown({
 							year	: 2015, 
@@ -40,11 +55,11 @@
 	</main>
 	<footer>
 		<nav>
-			<a href="index.html">Home</a>
-			<a href="proposal.html">Proposal</a>
-			<a href="charleston.html">Charleston</a>
-			<a href="accomodation.html">Accomodation</a>
-			<a href="ceremony.html">The Wedding</a>
+			<a class="reglink" href="index.html">Home</a>
+			<a class="reglink" href="proposal.html">Proposal</a>
+			<a class="reglink" href="charleston.html">Charleston</a>
+			<a class="reglink" href="accomodation.html">Accomodation</a>
+			<a class="reglink" href="ceremony.html">The Wedding</a>
 		</nav>
 	</footer>
 </body>
