@@ -193,7 +193,7 @@ img.floatright {
 }
 
 .wide {
-	width: 90%;
+	width: 80%;
 	border-radius: 20px;
 }
 
@@ -201,11 +201,13 @@ img.floatright {
 	display:inline-block;
 	float:left;
 	font-size: 30px;
+	padding-top: 20px;
 	padding-left:150px;
 }
 .buttonright {
 	display:inline-block;
 	float:right;
 	font-size: 30px;
+	padding-top: 20px;
 	padding-right: 150px;
 }
