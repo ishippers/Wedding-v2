@@ -59,7 +59,7 @@ h2 {
 
 h3 {
 	text-align: left;
-	font-size: 32px;
+	font-size: 30px;
 	margin: 25px 0 10px 0;
 }
 
@@ -153,7 +153,7 @@ ul{
 	list-style: none;
 }
 
-li a {
+li,li a {
 	display:block;
 	padding:5px;
 	font-size: 20px;
@@ -210,4 +210,10 @@ img.floatright {
 	font-size: 30px;
 	padding-top: 20px;
 	padding-right: 150px;
+}
+
+.button{
+	color:rgba(245,111,112,1);
+	text-decoration: none;
+	font-weight: 700;
 }
